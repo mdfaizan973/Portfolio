@@ -1,0 +1,475 @@
+@import url('https://font.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900,&display=swap'); 
+
+/* @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700;800;900&family=Dancing+Script:wght@400;500;600;700&display=swap"); */
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+} 
+
+/* body***********************************************************/
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    /* background-image: url('pics/1567665.png'); */
+    background-image: url('myimg//pexels-johannes-plenio-1103970.jpg');
+  
+
+}
+
+/* body************************************************************/
+
+
+/******************************************************************our 1s page **************************************************/
+
+   
+
+#headpage{
+    background-image: url('myimg/pexels-gabriel-peter-696644.jpg');
+    background-image: url('myimg//john-fowler-RsRTIofe0HE-unsplash.jpg');
+    background-position: fised;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* .navbar************************************************** */
+
+#header{
+     display: flex;
+     /* align-items: center; */
+     justify-content: space-between;
+     position: sticky; 
+    
+}
+
+img{
+     height: 100px;
+     width: 100px;
+
+}
+
+.navbar{
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: end;
+
+}
+
+.navbar .links {
+    display: flex;
+    /* width: 20px; */
+}
+
+.navbar a {
+        float: left;     
+        padding: 25px;
+        color: rgb(253, 253, 253);
+        text-decoration: none;
+        font-size: 25px;
+        /* border-radius: 50px; */
+        /*transition: color 0.3s ease;*/
+      }
+
+.navbar a:hover{
+    text-decoration: underline;
+    color: #935e55;
+    opacity: 0.4;
+
+      }
+
+    
+
+/* main********************************/
+
+#newpage{
+    padding-top: 240px;
+    padding-left: 150px;
+    color: rgb(0, 0, 0);
+}
+
+#newpage h1 {
+    font-size: 90px;
+}
+
+#newpage h1 span{
+    font-size: 120px;
+    color:rgb(254, 255, 254);
+}
+
+#newpage h2 {
+    font-size: 70px;
+    color:rgb(52, 0, 0);
+}
+
+#newpage h3 span{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+
+
+/******************************************************************** our resume page*************************************************** */
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px; 
+    background-color: #fff;
+    margin: 50px;
+    display: grid ; 
+    grid-template-columns: 1fr 2fr ;
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 1);
+    background-image: url('myimg//pexels-johannes-plenio-1103970.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255.255.0.2);
+}
+
+.MyPic{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    border-radius: 50% ;
+    object-fit:cover;
+    overflow: hidden;
+
+}
+
+.profileText h2{
+    color:rgb(0, 0, 0); 
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4rem;
+}
+
+.profileText h2 span{
+    font-size: 0.8em;
+    color: rgb(255, 0, 0);
+    /* font-weight: 300; */
+    
+}
+
+
+/* .portfolio .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+} */
+.contactInfo{
+    padding-top: 20px;
+
+}
+
+.title{
+    color: rgb(1, 32, 24);
+}
+/* container start***************************************************************************************** */
+.container .left_side{
+    position:relative;
+    background: rgb(69, 78, 80);
+    padding: 50px;
+/* width: auto; */
+}
+
+
+
+
+/* first */
+.contactInfo{
+    padding-left: 40px;
+    /* padding-top: 20px; */
+}
+
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    Latter-spacing:1;
+    margin-bottom: 20px;
+    padding-top: 13px;
+}
+
+.contactInfo ul{
+    position: relative;
+    padding-bottom: 10px;
+
+}
+
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 18px;
+    font-size: 15px;
+    color:rgb(1, 174, 227);
+}
+
+.contactInfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+
+/* 2nd */
+
+.contactInfo.education li{
+    margin-bottom: 18px;
+
+}
+
+.contactInfo.education h5{
+    color:aqua;
+    font-weight: 300;
+
+}
+
+.contactInfo.education h4 :nth-child(2){
+    color: #fff;
+    font-weight: 500;
+
+}
+
+.contactInfo.education h4{
+    color: #fff;
+    font-weight: 300;
+
+}
+
+.contactInfo ul  span:last-child{
+    font-size: 15px;
+}
+
+/* 3rd */
+
+.contactInfo.language .percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(3, 30, 1);
+    display: block;
+    margin-top: 5px;
+
+}
+
+.contactInfo.language .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: red;
+
+}
+
+.homepage{
+    position: absolute;
+    bottom: 10px;
+    left: 110px;
+    text-decoration: none;
+    color: white;
+}
+
+/* .left_side */
+
+/* container start***************************************************************************************** */
+.container .right_side{  /*right*/
+    position:relative;
+    background: rgb(255, 255, 255) ;
+    padding: 50px;
+
+}
+
+.about{
+    margin-bottom: 50px;
+    
+}
+ 
+.about:last-child{
+    margin-bottom: 0;
+}
+/* *************************************hr********************************************************* */
+hr{
+    border-color: rgb(81, 197, 197);
+}
+
+.header{
+    padding-bottom: 10px;
+}
+
+.about .hey{
+    font-size: 32px;
+    color: black;
+}
+
+.about .name{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+   
+}
+
+.about .name span{
+    color: rgb(78, 4, 4);
+    font-weight: 1000;
+    font-size: 70px;
+}
+
+.about .work span{
+    color: rgb(83, 5, 1);
+}
+
+
+.title2{
+    color: #112833;
+    text-transform: uppercase;
+    latter-spacing:1px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    padding-top: 5px;
+    
+}
+
+p{
+    color: rgb(47, 43, 43);
+    font-size: 18px;
+}
+
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.about .box .year_company{
+    min-width: 150px;
+    font-size: 20px;
+}
+
+.about .box .year_company h5{
+    text-transform: uppercase;
+    color: #5c6163;
+    font-weight: 600;
+}
+
+.about .box .text h4{   
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 30px;
+}
+
+/* skills 4th */
+
+.skills .box{
+      position: relative;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      justify-content: center;
+      align-items: center;
+
+}
+
+.skills .box h4{
+    text-transform: uppercase;
+    color: #4d4f50;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skills .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(175, 163, 163);
+
+}
+
+.skills .box .percent .style{
+    position: relative;
+    top: o;
+    left: 0;
+    height: 100%;
+    background-color: aqua;
+}
+
+/* hobby 5th */
+
+.hobby ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.hobby ul li{
+    list-style: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0px;
+
+}
+
+.hobby ul li .fa{
+color: aquamarine;
+font-size: 30px;
+width: 45px;
+cursor: pointer;
+margin-left: 10px;
+}
+
+
+/* ******************* @mediaquery**************** */
+
+@media(max-width:1000px){
+    .container{
+        margin:10px;
+        grid-template-columns: 1,1fr;
+    }
+    .hobby{
+        grid-template-columns: 2,1fr;
+    }
+}
+
+@media(max-width:600px){
+    .about.box{
+        flex-direction: column;
+    }
+    .about .box .year_company{
+        margin-bottom:5px;
+    }
+    .hobby ul{
+        grid-template-columns: repeat(1,1fr );
+    }
+    .skills.box{
+        grid-template-columns: repeat(1,1fr );  
+     }
+
+
+}
+
